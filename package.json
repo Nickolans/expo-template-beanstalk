@@ -1,10 +1,10 @@
 {
   "name": "expo-template-beanstalk",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "src/index.jsx",
   "description": "Template complete with file structure, routing, and authentication.",
   "keywords": [
-    "expo template", 
+    "expo template",
     "template",
     "routes"
   ],
@@ -19,9 +19,18 @@
     "url": "https://www.nickolans.com/"
   },
   "contributors": [
-    {"name":"Benjamin Klopfenstien","url":"https://github.com/obe711"},
-    {"name":"Noah Reed","url":"https://github.com/Nore5515"},
-    {"name": "Andres Valdez", "url": "https://github.com/andresev"}
+    {
+      "name": "Benjamin Klopfenstien",
+      "url": "https://github.com/obe711"
+    },
+    {
+      "name": "Noah Reed",
+      "url": "https://github.com/Nore5515"
+    },
+    {
+      "name": "Andres Valdez",
+      "url": "https://github.com/andresev"
+    }
   ],
   "scripts": {
     "start": "expo start",
