@@ -8,7 +8,7 @@
 expo init my-app --template expo-template-beanstalk
 ```
 
-**\*NOTE**: make sure to change index path in AppDelegate for Xcode from "index" to "src/index"\*
+**NOTE**: make sure to change index path in AppDelegate for Xcode from "index" to "src/index"
 
 ## Contributors
 
