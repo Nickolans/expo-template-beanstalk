@@ -8,6 +8,8 @@
 expo init my-app --template expo-template-beanstalk
 ```
 
+**\*NOTE**: make sure to change index path in AppDelegate for Xcode from "index" to "src/index"\*
+
 ## Contributors
 
 <a href = "https://github.com/Nickolans/expo-template-beanstalk/graphs/contributors">
