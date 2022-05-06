@@ -1,0 +1,55 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true,
+        "react-native/react-native": true,
+        "jest": true
+    },
+    "extends": [
+        "plugin:react/recommended",
+        "airbnb"
+    ],
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react",
+        "react-native",
+        "unused-imports"
+    ],
+    "rules": {
+        "no-use-before-define": ["error", {"functions": false, "classes": false}],
+        "react/jsx-uses-react": "error",
+        "react/jsx-uses-vars": "error",
+        "no-unused-vars": "warn",
+        "unused-imports/no-unused-imports": "error",
+        "unused-imports/no-unused-vars": [
+            "warn",
+            {
+              "vars": "all",
+              "varsIgnorePattern": "^_",
+              "args": "after-used",
+              "argsIgnorePattern": "^_"
+            }
+          ],
+        "react/function-component-definition": [
+        2,
+        {
+            "namedComponents": "arrow-function",
+            "unnamedComponents": "arrow-function"
+        }
+        ],
+        /* NOTE: less important fixes I've silenced for now */
+        "no-console": 0,
+        "import/no-cycle": 0,
+        "react/no-array-index-key": 0,
+        "no-underscore-dangle": 0,
+        "react/prop-types": 0,
+        /* NOTE: Silenced but potentially useful */
+        "react/jsx-no-useless-fragment": 0
+    }
+}

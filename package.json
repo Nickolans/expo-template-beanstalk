@@ -1,0 +1,62 @@
+{
+  "name": "expo-template-beanstalk",
+  "version": "0.0.2",
+  "main": "src/index.jsx",
+  "description": "Template complete with file structure, routing, and authentication.",
+  "keywords": [
+    "expo template", 
+    "template",
+    "routes"
+  ],
+  "homepage": "https://github.com/Nickolans/expo-template-beanstalk#readme",
+  "repository": {
+    "url": "https://github.com/Nickolans/expo-template-beanstalk",
+    "type": "git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Nickolans Griffith",
+    "url": "https://www.nickolans.com/"
+  },
+  "contributors": [
+    {"name":"Benjamin Klopfenstien","url":"https://github.com/obe711"},
+    {"name":"Noah Reed","url":"https://github.com/Nore5515"},
+    {"name": "Andres Valdez", "url": "https://github.com/andresev"}
+  ],
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^13.0.0",
+    "@invertase/react-native-apple-authentication": "^2.1.5",
+    "@react-native-google-signin/google-signin": "^7.2.2",
+    "axios": "^0.26.1",
+    "expo": "~44.0.2",
+    "expo-splash-screen": "~0.14.1",
+    "expo-status-bar": "~1.2.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-native": "0.64.3",
+    "react-native-web": "0.17.1",
+    "react-router-native": "^6.3.0",
+    "rxjs": "^7.5.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^8.13.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jest": "^26.1.4",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.29.4",
+    "eslint-plugin-react-hooks": "^4.4.0",
+    "eslint-plugin-react-native": "^4.0.0",
+    "eslint-plugin-unused-imports": "^2.0.0",
+    "jest": "^27.5.1"
+  }
+}
