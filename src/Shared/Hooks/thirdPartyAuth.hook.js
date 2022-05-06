@@ -2,7 +2,7 @@
 import appleAuth from '@invertase/react-native-apple-authentication';
 import { GoogleSignin } from '@react-native-google-signin/google-signin';
 import { authService } from '../Services/auth.service';
-import config from "../../../config.json"
+import config from '../../../config.json';
 
 const useThirdPartyAuth = () => {
   const handleAppleSignIn = async () => {
