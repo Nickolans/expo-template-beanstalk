@@ -3,9 +3,6 @@
   "version": "0.1.1",
   "main": "src/index.jsx",
   "description": "Template complete with file structure, routing, and authentication.",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "keywords": [
     "expo template",
     "template",
