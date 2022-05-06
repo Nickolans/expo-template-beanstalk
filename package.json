@@ -1,6 +1,6 @@
 {
   "name": "expo-template-beanstalk",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "main": "src/index.jsx",
   "description": "Template complete with file structure, routing, and authentication.",
   "keywords": [
