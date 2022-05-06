@@ -31,7 +31,7 @@ const useThirdPartyAuth = () => {
   const handleGoogleSignIn = async () => {
     // 1. Configure TODO: move this somewhere else
     GoogleSignin.configure({
-      iosClientId: '692247536362-bg7aqurbkdir3289upvb6ckj1gno5763.apps.googleusercontent.com',
+      iosClientId: '',
     });
 
     // 2. Sign in
