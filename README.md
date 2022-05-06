@@ -80,15 +80,6 @@ src\
 
 ```
 
-## API Endpoints
-
-List of available routes:
-
-**Auth routes**:\
-`POST /v1/auth/register` - register\
-`POST /v1/auth/login/email` - login with email & password\
-Routes unknown. These are preserved for samples.
-
 ## Shared Components
 
 [Input](docs/components/Input.md)\
