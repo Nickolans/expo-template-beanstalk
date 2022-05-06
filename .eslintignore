@@ -7,3 +7,4 @@ metro.config.js
 **/*.md
 **/*.log
 **/*.lock
+**/*.png

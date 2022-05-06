@@ -1,8 +1,8 @@
-import React from "react";
-import { Routes, Route } from "react-router-native";
-import RequireAuth from "../Shared/Routing/RequireAuth";
-import publicRoutes from "../Shared/Routing/public.routes";
-import protectedRoutes from "../Shared/Routing/protected.routes";
+import React from 'react';
+import { Routes, Route } from 'react-router-native';
+import RequireAuth from '../Shared/Routing/RequireAuth';
+import publicRoutes from '../Shared/Routing/public.routes';
+import protectedRoutes from '../Shared/Routing/protected.routes';
 
 const App = () => (
   <Routes>
@@ -11,11 +11,11 @@ const App = () => (
         exact
         path={route.path}
         key={index}
-        element={
+        element={(
           <route.layout>
             <route.element />
           </route.layout>
-        }
+        )}
       />
     ))}
     {protectedRoutes.map((route, index) => (
@@ -23,13 +23,13 @@ const App = () => (
         exact
         path={route.path}
         key={index}
-        element={
+        element={(
           <RequireAuth>
             <route.layout>
               <route.element />
             </route.layout>
           </RequireAuth>
-        }
+        )}
       />
     ))}
   </Routes>

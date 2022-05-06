@@ -1,5 +1,7 @@
 # expo-template-beanstalk
 
+[![Build Status](https://app.travis-ci.com/Nickolans/expo-template-beanstalk.svg?branch=main)](https://app.travis-ci.com/Nickolans/expo-template-beanstalk)
+
 ## How to use
 
 ```

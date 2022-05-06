@@ -1,9 +1,9 @@
-import { registerRootComponent } from "expo";
-import React from "react";
-import { NativeRouter } from "react-router-native";
-import config from "../config.json";
+import { registerRootComponent } from 'expo';
+import React from 'react';
+import { NativeRouter } from 'react-router-native';
+import config from '../config.json';
 
-import App from "./App/App";
+import App from './App/App';
 
 const Index = () => (
   <NativeRouter>
@@ -19,9 +19,9 @@ async function startApp() {
 }
 
 if (config.withServer) {
-  console.log("Running with API Server");
+  console.log('Running with API Server');
   startApp();
 } else {
-  console.log("Running in DEV Mode");
+  console.log('Running in DEV Mode');
   startApp();
 }
