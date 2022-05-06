@@ -8,3 +8,4 @@ metro.config.js
 **/*.log
 **/*.lock
 **/*.png
+gitignore.example.txt
