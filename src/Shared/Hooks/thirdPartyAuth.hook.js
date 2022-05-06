@@ -2,6 +2,7 @@
 import appleAuth from '@invertase/react-native-apple-authentication';
 import { GoogleSignin } from '@react-native-google-signin/google-signin';
 import { authService } from '../Services/auth.service';
+import config from "../../../config.json"
 
 const useThirdPartyAuth = () => {
   const handleAppleSignIn = async () => {
@@ -31,7 +32,7 @@ const useThirdPartyAuth = () => {
   const handleGoogleSignIn = async () => {
     // 1. Configure TODO: move this somewhere else
     GoogleSignin.configure({
-      iosClientId: '',
+      iosClientId: config.googleiOSClientId,
     });
 
     // 2. Sign in
