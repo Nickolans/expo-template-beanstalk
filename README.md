@@ -86,3 +86,7 @@ src\
 [BackButtonNavHeader](docs/components/BackButtonNavHeader.md)\
 [LGbutton](docs/components/LGbutton.md)\
 [SMbutton](docs/components/SMbutton.md)
+
+## Troubleshooting
+
+[RCTBridge Warning](https://amanhimself.dev/blog/rctbridge-required-dispatch-sync-to-load-warning)
