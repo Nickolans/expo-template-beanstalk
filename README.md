@@ -12,11 +12,11 @@ expo init my-app --template expo-template-beanstalk
 
 ## Contributors
 
-<a href = "https://github.com/Nickolans/expo-template-beanstalk/graphs/contributors">
-  <img src = "https://contrib.rocks/image?repo = GitHub_username/repository_name"/>
+<a href="https://github.com/nickolans/expo-template-beanstalk/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=nickolans/expo-template-beanstalk" />
 </a>
 
-Made with [contributors-img](https://contrib.rocks).
+Made with [contrib.rocks](https://contrib.rocks).
 
 ## Support
 
