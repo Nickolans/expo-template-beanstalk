@@ -4,8 +4,16 @@
 
 ## How to use
 
-```
+```bash
+# Create project
 expo init my-app --template expo-template-beanstalk
+cd my-app
+
+# Generate iOS/Android folders
+yarn eject
+
+# Swap files
+yarn beanstalk-swap
 ```
 
 **NOTE**: make sure to change index path in AppDelegate for Xcode from "index" to "src/index"
