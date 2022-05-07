@@ -16,8 +16,6 @@ yarn eject
 yarn beanstalk-swap
 ```
 
-**NOTE**: make sure to change index path in AppDelegate for Xcode from "index" to "src/index"
-
 ## Contributors
 
 <a href="https://github.com/nickolans/expo-template-beanstalk/graphs/contributors">
