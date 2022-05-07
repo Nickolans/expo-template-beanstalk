@@ -1,34 +1,4 @@
-# expo-template-beanstalk
-
-[![Build Status](https://app.travis-ci.com/Nickolans/expo-template-beanstalk.svg?branch=main)](https://app.travis-ci.com/Nickolans/expo-template-beanstalk)
-
-## How to use
-
-```bash
-# Create project
-expo init my-app --template expo-template-beanstalk
-cd my-app
-
-# Generate iOS/Android folders
-yarn eject
-
-# Swap files
-yarn beanstalk-swap
-```
-
-**NOTE**: make sure to change index path in AppDelegate for Xcode from "index" to "src/index"
-
-## Contributors
-
-<a href="https://github.com/nickolans/expo-template-beanstalk/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=nickolans/expo-template-beanstalk" />
-</a>
-
-Made with [contrib.rocks](https://contrib.rocks).
-
-## Support
-
-For support, contact someone.
+# React Native App
 
 ## Features
 
@@ -88,13 +58,18 @@ src\
 
 ```
 
+## API Endpoints
+
+List of available routes:
+
+**Auth routes**:\
+`POST /v1/auth/register` - register\
+`POST /v1/auth/login/email` - login with email & password\
+Routes unknown. These are preserved for samples.
+
 ## Shared Components
 
 [Input](docs/components/Input.md)\
 [BackButtonNavHeader](docs/components/BackButtonNavHeader.md)\
 [LGbutton](docs/components/LGbutton.md)\
 [SMbutton](docs/components/SMbutton.md)
-
-## Troubleshooting
-
-[RCTBridge Warning](https://amanhimself.dev/blog/rctbridge-required-dispatch-sync-to-load-warning)
