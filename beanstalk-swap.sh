@@ -1,7 +1,7 @@
 # Script to configure project
 
 #1. Swap out files
-fileToReplace=(find ./ios -name '*AppDelegate.m*')
+fileToReplace=$(find ./ios -name '*AppDelegate.m*')
 cp -f "./.swappable/AppDelegate.m" $fileToReplace
 cp -f "./.swappable/README.md" "README.md"
 mv .swappable/gitignore.example.txt .
