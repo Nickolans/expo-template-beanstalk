@@ -42,7 +42,7 @@
     "test:watch": "jest -i --watchAll",
     "lint": "eslint \"./**\"",
     "lint:fix": "eslint \"./**\" --fix",
-    "grow-beanstalk": "./beanstalk.sh"
+    "grow-beanstalk": "sh ./beanstalk.sh"
   },
   "dependencies": {
     "@expo/vector-icons": "^13.0.0",
