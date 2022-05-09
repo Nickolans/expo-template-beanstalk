@@ -1,6 +1,7 @@
 # expo-template-beanstalk
 
 [![Build Status](https://app.travis-ci.com/Nickolans/expo-template-beanstalk.svg?branch=main)](https://app.travis-ci.com/Nickolans/expo-template-beanstalk)
+![npm](https://img.shields.io/npm/v/expo-template-beanstalk)
 
 ## How to use
 
